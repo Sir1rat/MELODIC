@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px !important;
+    margin-bottom: 20px;
+    padding-top: 5% !important;
+    color: black;
+
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px !important;
+    color: black;
+}
+
+
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: black;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav-link {
+    font-color: black;
+}
+
+
+
+.white{
+    color: white;
+}
+
+
+ul {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    min-width: 535px;
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+
+ul.nav.bg-light{
+    margin-left: 50px;
+}
+
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 15%;
+
+}
+
+
+a {
+    color: black !important;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 25px;
+    margin: 10px
+}
+
+a:hover{
+    color: rgb(0, 24, 2) !important;
+    text-decoration: underline;
+    background-color: transparent;
+    font-size: 25px;
+    margin: 10px
+}
+
+
+
+.card {
+    margin: 0px 5px 15px 5px;
+}
+
+
+.margin-text{
+    margin: 0px 120px;
+}
+
+
+ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    min-width: 535px;
+    font-size: 22px;
+    position: relative;
+    box-shadow: none;
+}
+
+
+.presentation{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+/*
+ * Test for access token
+ */
+
+
+
+/*
+ * MAIN
+ */
+
+.news{
+    text-align: center;
+    margin-top: 60px;
+}
+
+/*
+   * Anpassung SVG
+   */
+.frameSVG {
+    border: 2px solid #004d37;
+    border-radius: 35%;
+}
+
+.rakete{
+    width: 170px;
+}
+
+.Introduction {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #004d37;
+}
+
+/*
+   * Bildgallerie
+   */
+.frame {
+    padding: 10px 10px 50px 10px;
+    background-color: #004d37;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.container{
+    justify-content: center;
+}
+
+.comingsoon {
+    margin: 25px 25px 25px 25px;
+}
+.form-group {
+    margin: 25px 25px 25px 25px;
+    font-family: 'Poppins', sans-serif;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+}
+.center .btns button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.center .btns button:first-child{
+    color: #fff;
+    background: none;
+}
+.btns button:first-child:hover{
+    background: white;
+    color: black;
+}
+.center .btns button:last-child{
+    background: white;
+    color: black;
+}
