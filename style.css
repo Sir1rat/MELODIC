@@ -1,5 +1,6 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
 {
     font-family: 'Poppins', sans-serif;
     scroll-padding-top: 30px;
@@ -146,7 +147,7 @@ header {
 .cart {
     position: fixed;
     top: 0;
-    right: 0;
+    right: -100%;
     width: 340px;
     min-height: 100vh;
     padding: 20px;
@@ -219,4 +220,39 @@ header {
 
 .add-cart:hover {
     background: #282828;
+}
+
+/* Responsive */
+@media (max-width:1080px) {
+    .nav {
+        padding: 15px;
+    }
+
+    section {
+        padding: 110px 0 50px;
+    }
+
+    .container{
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .shop{
+        margin-top: 20px !important;
+    }
+
+}
+
+@media (max-width:400px) {
+    .nav {
+        padding: 15px;
+    }
+
+    .logo{
+        font-size: 10px;
+    }
+
+    .cart{
+        width: 320px;
+    }
 }
