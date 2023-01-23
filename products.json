@@ -1,0 +1,62 @@
+[
+  {
+    "thumbnail":"Fotomaterial/SI-BR-VIN.png",
+    "productname": "Silk Sonic - Bruno Mars",
+    "price": 28.90
+  },
+  {
+    "thumbnail":"Fotomaterial/MR-KE-VIN.png",
+    "productname": "Mr. Morale - Kendrick Lamar",
+    "price": 49.90
+  },
+  {
+    "thumbnail":"Fotomaterial/GO-KE-VIN.png",
+    "productname": "Good Kid - Kendrick Lamar",
+    "price": 34.90
+  },
+  {
+    "thumbnail":"Fotomaterial/GL-JO-VIN.png",
+    "productname": "Glimpse Of Us - Joji",
+    "price": 34.90
+  },
+  {
+    "thumbnail":"Fotomaterial/DO-MF-VIN.png",
+    "productname": "Doomsday - MF DOOM",
+    "price": 34.90
+  },
+  {
+    "thumbnail":"Fotomaterial/HI-TR-VIN.png",
+    "productname": "Highest In Room - Travis Scott",
+    "price": 34.90
+  },
+  {
+    "thumbnail":"Fotomaterial/TH-EM-VIN.png",
+    "productname": "The Eminem Show - Eminem",
+    "price": 39.90
+  },
+  {
+    "thumbnail":"Fotomaterial/AN-AT-VIN.png",
+    "productname": "Anthology - ATCQ",
+    "price": 29.90
+  },
+  {
+    "thumbnail":"Fotomaterial/MM-MF-VIN.png",
+    "productname": "MM..FOOD - MF DOOM",
+    "price": 39.90
+  },
+  {
+    "thumbnail":"Fotomaterial/BF-TH-VIN.png",
+    "productname": "BFIAFL - THE 1975",
+    "price": 39.90
+  },
+  {
+    "thumbnail":"Fotomaterial/LA-TH-VIN.png",
+    "productname": "Lady Madonna - The Beatles",
+    "price": 39.90
+  },
+  {
+    "thumbnail":"Fotomaterial/UP-ON-VIN.jpg",
+    "productname": "Up All Night - One Direction",
+    "price": 39.90
+  }
+]
