@@ -1,26 +1,3 @@
-let products = [];
-
-//fetch data from products.json
-function readTextFile(file, callback) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.overrideMimeType("application/json");
-    rawFile.open("GET", file, true);
-    rawFile.onreadystatechange = function() {
-        if (rawFile.readyState === 4 && rawFile.status == "200") {
-            callback(rawFile.responseText);
-        }
-    }
-    rawFile.send(null);
-}
-
-//usage:
-readTextFile("products.json", function(text){
-    var data = JSON.parse(text);
-    products.push(data)
-});
-
-
-
 // Cart
 let cartIcon = document.querySelector("#cart-icon");
 let cart = document.querySelector(".cart");
