@@ -1,3 +1,12 @@
+import products from './products.json' assert {type: 'json'};
+
+document.getElementById("shop-content").innerHTML = myFunction(products);
+
+function myFunction(products) {
+    return '';
+  }
+
+
 // Cart
 let cartIcon = document.querySelector("#cart-icon");
 let cart = document.querySelector(".cart");
