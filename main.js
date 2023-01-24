@@ -1,3 +1,4 @@
+// JSON
 import products from './products.json' assert {type: 'json'};
 
 const productBoxes = products.map((product) => {
