@@ -1,10 +1,20 @@
 import products from './products.json' assert {type: 'json'};
 
-document.getElementById("shop-content").innerHTML = myFunction(products);
+const productBoxes = products.map((product) => {
+    return `<div class="product-box">
+              <img id="image2" src="${product.thumbnail}" alt="${product.productname}" class="product-img">
+              <h2 class="product-title">${product.productname}</h2>
+              <span class="price bottom">${product.price}0</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+           </div>`;
+  });
 
-function myFunction(products) {
-    return '';
-  }
+  const container = document.getElementById("container");
+productBoxes.forEach(box => {
+    let div = document.createElement('div');
+    div.innerHTML = box;
+    container.appendChild(div);
+});
 
 
 // Cart
