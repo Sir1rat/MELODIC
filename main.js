@@ -18,19 +18,36 @@ productBoxes.forEach(box => {
 });
 
 
-// Cart
-let cartIcon = document.querySelector("#cart-icon");
-let cart = document.querySelector(".cart");
-let closeCart = document.querySelector("#close-cart");
+// Cart Ver 1
+//let cartIcon = document.querySelector("#cart-icon");
+//let cart = document.querySelector(".cart");
+//let closeCart = document.querySelector("#close-cart");
 
-// Open Cart
-cartIcon.onclick = () => {
-    cart.classList.add("active");
+// Open Cart Ver 1
+//cartIcon.onclick = () => {
+//cart.classList.add("active");
+//}
+
+// Close Cart Ver 1
+// closeCart.onclick = () => {
+//cart.classList.remove("active");
+//}
+
+// Cart Ver 2
+const cart = {
+    icon: document.querySelector("#cart-icon"),
+    element: document.querySelector(".cart"),
+    closeButton: document.querySelector("#close-cart")
+};
+
+// Open Cart Ver 2
+cart.icon.onclick = () => {
+    cart.element.classList.add("active");
 }
 
-// Close Cart
-closeCart.onclick = () => {
-    cart.classList.remove("active");
+// Close Cart Ver 2
+cart.closeButton.onclick = () => {
+    cart.element.classList.remove("active");
 }
 
 
@@ -160,6 +177,8 @@ function updatetotal(){
 
 
 }
+
+
 
 
 
