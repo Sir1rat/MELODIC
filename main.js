@@ -148,14 +148,16 @@ function updatetotal(){
         var cartBox = cartBoxes[i];
         var priceElement = cartBox.getElementsByClassName("cart-price")[0];
         var quantityElement = cartBox.getElementsByClassName("cart-quantity")[0];
-        var price = parseFloat(priceElement.innerText.replace("CHF"," "));
-        var quantity = quantityElement.ariValueMay;
+        var price = parseFloat(priceElement.innerText.replace("0",""));
+        var quantity = quantityElement.value;
         total = total + (price * quantity);
+        document.getElementsByClassName("total-price")[0].innerText = "CHF" + total.toFixed(2);
     }
 
 
 
-    document.getElementsByClassName("total-price")[0].innerText = "CHF" + total;
+    document.getElementsByClassName("total-price")[0].innerText = "CHF" + total.toString();
+
 
 }
 
