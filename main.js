@@ -8,9 +8,9 @@ const productBoxes = products.map((product) => {
               <span class="price bottom">${product.price}0</span>
               <i class='bx bx-shopping-bag add-cart'></i>
            </div>`;
-  });
+});
 
-  const container = document.getElementById("container");
+const container = document.getElementById("container");
 productBoxes.forEach(box => {
     let div = document.createElement('div');
     div.innerHTML = box;
@@ -49,6 +49,8 @@ cart.icon.onclick = () => {
 cart.closeButton.onclick = () => {
     cart.element.classList.remove("active");
 }
+
+
 
 
 // Cart Working JS
